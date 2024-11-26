@@ -13,8 +13,8 @@ The UART Wishbone Slave enables UART communication within a Wishbone-compliant s
 |---------------|---------|------------------------------|
 | `CTRL`        | 0x00    | Configure data/stop bits.    |
 | `STATUS`      | 0x04    | Monitor UART status/errors.  |
-| `TX_BUFFER`   | 0x08    | Load data to transmit.       |
-| `RX_BUFFER`   | 0x0C    | Read received data.          |
+| `RX_BUFFER`   | 0x08    | Load data to transmit.       |
+| `TX_BUFFER`   | 0x0C    | Read received data.          |
 
 ## TODO
 - **Configurable Baud Rate**: 
